@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-rs
+  labels:
+    app: cbz-app
+spec: 
+  template:
+    metadata:
+      labels:
+        app: cbz-app
+    spec:
+      containers:
+      - name: my-app
+        image: nginx
+        ports:
+          - name: http
+            protocol: TCP
+            containerPort: 80
+  replicas: 3
+  selector:
+    # matchLabels:
+    #   app: cbz-app
+    matchExpressions:
+      - {key: "app", operator: "In", values: ["cbz-app", "my-app"] } 
