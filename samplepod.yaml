@@ -1,9 +1,9 @@
 metadata:
   labels:
-    app: cbz-app
+    app: xyz-app
 spec:
   containers:
-  - name: my-app
+  - name: xyz-app
     image: mysql
     ports:
       - name: http
