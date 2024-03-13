@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: my-ss
+  labels:
+    app: cbz-app
+spec: 
+  template:
+    metadata:
+      labels:
+        app: cbz-app
+    spec:
+      containers:
+      - name: my-app
+        image: mysql
+        ports:
+          - name: http
+            protocol: TCP
+            containerPort: 80
+        env:
+          name: "MYSQL_ROOT_PASSWORD"
+          value: "redhat"
+
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cbz-app
