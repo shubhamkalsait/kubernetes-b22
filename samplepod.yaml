@@ -18,8 +18,8 @@ spec:
     #       key: PASS
     - name: "MYSQL_ROOT_PASSWORD"
       valueFrom:
-        SecretKeyRef:
-          name: my-var
+        secretKeyRef:
+          name: my-cred
           key: PASS
     - name: "MYSQL_USER"
       valueFrom:
