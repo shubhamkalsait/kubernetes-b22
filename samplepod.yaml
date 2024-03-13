@@ -14,7 +14,7 @@ spec:
       valueFrom:
         configMapKeyRef:
           name: my-var
-          key: 
+          key: PASS
 
 apiVersion: v1
 kind: Pod
