@@ -11,6 +11,7 @@ spec:
         containerPort: 80
     env:
     - name: "MYSQL_ROOT_PASSWORD"
-      value: "redhat"
+      value
+
 apiVersion: v1
 kind: Pod
