@@ -1,0 +1,5 @@
+FROM centos:7
+RUN yum install httpd -y
+RUN echo "<h1>CLOTH SECTION CLOUDBLITZ" > /var/www/html/cloth/index.html
+EXPOSE 80
+ENTRYPOINT ["httpd", "-DFOREGROUND"]
