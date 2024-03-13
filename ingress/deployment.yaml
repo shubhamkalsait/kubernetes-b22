@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: cloth-app
   labels:
-    app: xyz-app
+    app: cloth-app
 spec:
   template:
     metadata:
       labels:
-        app: xyz-app
+        app: cloth-app
     spec:
       containers:
         - name: xyz-app
