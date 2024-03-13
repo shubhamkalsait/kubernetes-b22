@@ -13,7 +13,8 @@ spec:
     - name: "MYSQL_ROOT_PASSWORD"
       valueFrom:
         configMapKeyRef:
-          name: m
+          name: my-var
+          key: 
 
 apiVersion: v1
 kind: Pod
