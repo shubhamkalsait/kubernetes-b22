@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: StatefulSet
+kind: DaemonSet
 metadata:
-  name: my-ss
+  name: my-ds
   labels:
     app: cbz-app
 spec: 
