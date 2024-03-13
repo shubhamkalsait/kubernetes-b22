@@ -11,7 +11,7 @@ spec:
         app: cloth-app
     spec:
       containers:
-        - name: xyz-app
+        - name: cloth-app
           image: nginx
           ports:
             - containerPort: 80
