@@ -3,12 +3,12 @@ kind: DaemonSet
 metadata:
   name: my-ds
   labels:
-    app: cbz-app
+    app: my-app
 spec: 
   template:
     metadata:
       labels:
-        app: cbz-app
+        app: my-app
     spec:
       containers:
       - name: my-app
