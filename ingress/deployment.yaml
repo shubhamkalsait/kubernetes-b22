@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: home
-          image: nginx
+          image: shubhamkalsait1/home-b22.git
           ports:
             - containerPort: 80
   replicas: 3
