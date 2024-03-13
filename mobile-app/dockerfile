@@ -1,6 +1,6 @@
 FROM centos:7
 RUN yum install httpd -y
-RUN mkdir /var/www/html/cloth
-RUN echo "<h1>CLOTH SECTION CLOUDBLITZ" > /var/www/html/cloth/index.html
+RUN mkdir /var/www/html/mobile
+RUN echo "<h1>THIS IS MOBILE PAGE" > /var/www/html/mobile/index.html
 EXPOSE 80
 ENTRYPOINT ["httpd", "-DFOREGROUND"]
