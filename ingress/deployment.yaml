@@ -3,15 +3,15 @@ kind: Deployment
 metadata:
   name: home-app
   labels:
-    app: cloth-app
+    app: home-app
 spec:
   template:
     metadata:
       labels:
-        app: cloth-app
+        app: home-app
     spec:
       containers:
-        - name: cloth-app
+        - name: home
           image: nginx
           ports:
             - containerPort: 80
