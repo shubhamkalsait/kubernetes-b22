@@ -4,4 +4,5 @@ metadata:
   name: my-var
 data:
   USER: "linux"
-  
+  PASS: "redhat"
+  DB: "studentapp"
