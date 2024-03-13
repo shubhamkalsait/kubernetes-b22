@@ -26,14 +26,14 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: home-app
+  name: cloth-app
   labels:
-    app: home-app
+    app: cloth-app
 spec:
   template:
     metadata:
       labels:
-        app: home-app
+        app: cloth-app
     spec:
       containers:
         - name: home
