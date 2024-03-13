@@ -18,7 +18,7 @@ spec:
     #       key: PASS
     - name: "MYSQL_ROOT_PASSWORD"
       valueFrom:
-        configMapKeyRef:
+        SecretKeyRef:
           name: my-var
           key: PASS
     - name: "MYSQL_USER"
