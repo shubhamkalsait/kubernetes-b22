@@ -18,7 +18,7 @@ spec:
             protocol: TCP
             containerPort: 80
         env:
-          name: "MYSQL_ROOT_PASSWORD"
+        - name: "MYSQL_ROOT_PASSWORD"
           value: "redhat"
 
   replicas: 3
