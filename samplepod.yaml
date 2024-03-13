@@ -12,3 +12,5 @@ spec:
     env:
     - name: "MYSQL_ROOT_PASSWORD"
       value: "redhat"
+apiVersion: v1
+kind: Pod
