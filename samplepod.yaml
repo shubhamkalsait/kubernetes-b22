@@ -20,7 +20,7 @@ spec:
       valueFrom:
         secretKeyRef:
           name: my-cred
-          key: PASS
+          key: DB_PASS
     - name: "MYSQL_USER"
       valueFrom:
         configMapKeyRef:
