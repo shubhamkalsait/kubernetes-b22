@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cloth-app
+  name: home-app
   labels:
     app: cloth-app
 spec:
