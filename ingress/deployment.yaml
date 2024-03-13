@@ -37,12 +37,12 @@ spec:
     spec:
       containers:
         - name: cloth
-          image: shubhamkalsait1/home-b22:latest
+          image: shubhamkalsait1/cloth-b22:latest
           ports:
             - containerPort: 80
   replicas: 2
   selector:
     matchLabels:
-      app: home-app
+      app: cloth-app
   strategy:
     type: RollingUpdate
