@@ -53,16 +53,16 @@ kind: Deployment
 metadata:
   name: mobile-app
   labels:
-    app: cloth-app
+    app: mobile-app
 spec:
   template:
     metadata:
       labels:
-        app: cloth-app
+        app: mobile-app
     spec:
       containers:
-        - name: cloth
-          image: shubhamkalsait1/cloth-b22:latest
+        - name: mobile
+          image: shubhamkalsait1/mobile-b22:latest
           ports:
             - containerPort: 80
   replicas: 2
