@@ -15,6 +15,7 @@ spec:
         configMapKeyRef:
           name: my-var
           key: PASS
+    - name: "MYSQL_USER"
 
 apiVersion: v1
 kind: Pod
