@@ -6,4 +6,3 @@ data:
   USER: "linux"
   PASS: "redhat"
   DB: "studentapp"
-  a: 10
