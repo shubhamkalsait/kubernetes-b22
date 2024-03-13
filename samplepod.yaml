@@ -3,7 +3,7 @@ metadata:
     app: my-pod
 spec:
   containers:
-  - name: xyz-app
+  - name: my-pod
     image: mysql
     ports:
       - name: http
