@@ -11,7 +11,9 @@ spec:
         containerPort: 80
     env:
     - name: "MYSQL_ROOT_PASSWORD"
-      valuesFrom
+      valueFrom:
+        configMapKeyRef:
+          
 
 apiVersion: v1
 kind: Pod
