@@ -46,3 +46,28 @@ spec:
       app: cloth-app
   strategy:
     type: RollingUpdate
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mobile-app
+  labels:
+    app: cloth-app
+spec:
+  template:
+    metadata:
+      labels:
+        app: cloth-app
+    spec:
+      containers:
+        - name: cloth
+          image: shubhamkalsait1/cloth-b22:latest
+          ports:
+            - containerPort: 80
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cloth-app
+  strategy:
+    type: RollingUpdate
