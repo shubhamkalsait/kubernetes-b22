@@ -1,15 +1,14 @@
-
 metadata:
-      labels:
-        app: cbz-app
-    spec:
-      containers:
-      - name: my-app
-        image: mysql
-        ports:
-          - name: http
-            protocol: TCP
-            containerPort: 80
-        env:
-        - name: "MYSQL_ROOT_PASSWORD"
-          value: "redhat"
+  labels:
+    app: cbz-app
+spec:
+  containers:
+  - name: my-app
+    image: mysql
+    ports:
+      - name: http
+        protocol: TCP
+        containerPort: 80
+    env:
+    - name: "MYSQL_ROOT_PASSWORD"
+      value: "redhat"
