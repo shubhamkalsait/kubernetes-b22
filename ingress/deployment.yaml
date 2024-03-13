@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: home
-          image: shubhamkalsait1/home-b22.git
+          image: shubhamkalsait1/home-b22:latest
           ports:
             - containerPort: 80
   replicas: 2
