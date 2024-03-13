@@ -20,8 +20,6 @@ spec:
         env:
         - name: "MYSQL_ROOT_PASSWORD"
           value: "redhat"
-
-  replicas: 3
   selector:
     matchLabels:
       app: my-app
