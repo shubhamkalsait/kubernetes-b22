@@ -1,6 +1,6 @@
 metadata:
   labels:
-    app: xyz-app
+    app: my-pod
 spec:
   containers:
   - name: xyz-app
