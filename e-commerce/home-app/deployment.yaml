@@ -18,4 +18,6 @@ spec:
     spec:
       containers:
         - name: home-app
-          image: 
+          image: shubhamkalsait1/home-app:latest
+          ports:
+            
