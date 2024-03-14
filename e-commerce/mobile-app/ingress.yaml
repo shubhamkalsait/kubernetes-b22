@@ -10,7 +10,7 @@ spec:
     - host: mobile.cbz.com
       http:
         paths:
-        - path: /
+        - path: /mobile
           pathType: Prefix
           backend:
             service:
