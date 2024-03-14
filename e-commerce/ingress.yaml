@@ -9,10 +9,10 @@ spec:
     - host: cbz.com
       http:
         paths:
-        - path: /testpath
+        - path: /mobile
           pathType: Prefix
           backend:
             service:
-              name: test
+              name: 
               port:
                 number: 80
