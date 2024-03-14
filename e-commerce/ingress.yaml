@@ -20,6 +20,6 @@ spec:
           pathType: Prefix
           backend:
             service:
-              name: mobile-app-service
+              name: cloth-app-service
               port:
                 number: 80
