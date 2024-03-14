@@ -3,4 +3,6 @@ kind: Deployment
 metadata:
   name: home-app
   labels:
-    
+    app: home-app
+spec:
+  
