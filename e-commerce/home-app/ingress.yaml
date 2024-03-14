@@ -10,11 +10,11 @@ spec:
     - host: cbz.com
       http:
         paths:
-        - path: /mobile
+        - path: /
           pathType: Prefix
           backend:
             service:
-              name: mobile-app-service
+              name: home-app-service
               port:
                 number: 80
         - path: /cloth
