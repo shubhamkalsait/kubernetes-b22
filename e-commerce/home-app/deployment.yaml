@@ -8,4 +8,5 @@ spec:
   selector:
     matchLabels:
       app: home-app
+  replicas: 1
   
