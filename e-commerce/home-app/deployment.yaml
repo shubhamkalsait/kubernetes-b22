@@ -9,4 +9,6 @@ spec:
     matchLabels:
       app: home-app
   replicas: 1
+  strategy:
+    type: RollingUpdate
   
