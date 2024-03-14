@@ -1,5 +1,0 @@
-FROM centos:7
-RUN yum install httpd -y
-RUN echo "<h1>WELCOME TO CLOUDBLITZ" > /var/www/html/index.html
-EXPOSE 80
-ENTRYPOINT ["httpd", "-DFOREGROUND"]
