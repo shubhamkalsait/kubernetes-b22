@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: home-app-service
+  name: mobile-app-service
   labels:
-    app: home-app
+    app: mobile-app
 spec:
   ports:
     - name: http
@@ -11,6 +11,6 @@ spec:
       protocol: TCP
       targetPort: 80
   selector:
-    app: home-app
+    app: mobile-app
   type: ClusterIP
   
