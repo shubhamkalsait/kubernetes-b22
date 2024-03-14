@@ -17,4 +17,5 @@ spec:
         app: home-app
     spec:
       containers:
-        - name
+        - name: home-app
+          image: 
