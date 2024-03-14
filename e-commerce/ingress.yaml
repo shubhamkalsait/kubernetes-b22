@@ -3,5 +3,6 @@ kind: Ingress
 metadata:
   name: e-commerce-ingress
   labels:
-    app: 
+    app: e-commerce
 spec:
+  
