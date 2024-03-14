@@ -6,4 +6,5 @@ metadata:
     app: e-commerce
 spec:
   rules:
-    - host: 
+    - host: cbz.com
+      
