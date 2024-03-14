@@ -5,7 +5,7 @@ metadata:
   labels:
     app: e-commerce
 spec:
-  ingress-class: 
+  ingress-class: nginx
   defaultBackend:
     service:
       name: home-app-service
