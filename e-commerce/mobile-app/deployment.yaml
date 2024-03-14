@@ -17,8 +17,8 @@ spec:
         app: mobile-app
     spec:
       containers:
-        - name: home-app
-          image: shubhamkalsait1/home-app:latest
+        - name: mobile-app
+          image: shubhamkalsait1/mobile-app:latest
           ports:
             - name: http
               containerPort: 80
