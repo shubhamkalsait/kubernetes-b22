@@ -1,31 +1,19 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: e-commerce-ingress
+  name: home-app-ingress
   labels:
-    app: e-commerce
+    app: home-app
 spec:
   ingressClassName: nginx
-  defaultBackend:
-    service:
-      name: home-app-service
-      port:
-        number: 80
   rules:
     - host: cbz.com
       http:
         paths:
-        - path: /mobile
+        - path: /
           pathType: Prefix
           backend:
             service:
-              name: mobile-app-service
-              port:
-                number: 80
-        - path: /cloth
-          pathType: Prefix
-          backend:
-            service:
-              name: cloth-app-service
+              name: home-app-service
               port:
                 number: 80
