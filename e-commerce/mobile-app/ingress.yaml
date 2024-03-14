@@ -7,13 +7,13 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: cbz.com
+    - host: mobile.cbz.com
       http:
         paths:
         - path: /
           pathType: Prefix
           backend:
             service:
-              name: home-app-service
+              name: mobile-app-service
               port:
                 number: 80
