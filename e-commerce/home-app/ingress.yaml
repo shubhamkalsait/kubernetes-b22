@@ -17,10 +17,3 @@ spec:
               name: home-app-service
               port:
                 number: 80
-        - path: /cloth
-          pathType: Prefix
-          backend:
-            service:
-              name: cloth-app-service
-              port:
-                number: 80
