@@ -20,4 +20,5 @@ spec:
         - name: home-app
           image: shubhamkalsait1/home-app:latest
           ports:
-            
+            - name: http
+              
