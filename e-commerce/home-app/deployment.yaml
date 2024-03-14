@@ -21,4 +21,5 @@ spec:
           image: shubhamkalsait1/home-app:latest
           ports:
             - name: http
-              
+              containerPort: 80
+              protocol: TCP
