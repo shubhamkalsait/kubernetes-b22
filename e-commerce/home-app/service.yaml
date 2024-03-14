@@ -3,4 +3,6 @@ kind: Service
 metadata:
   name: home-app-service
   labels:
-    
+    app: home-app
+spec:
+  
