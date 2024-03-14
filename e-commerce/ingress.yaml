@@ -5,6 +5,11 @@ metadata:
   labels:
     app: e-commerce
 spec:
+  defaultBackend:
+    service:
+      name: test
+      port:
+        number: 80
   rules:
     - host: cbz.com
       http:
