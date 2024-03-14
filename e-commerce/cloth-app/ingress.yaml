@@ -10,7 +10,7 @@ spec:
     - host: cloth.cbz.com
       http:
         paths:
-        - path: /
+        - path: /cloth
           pathType: Prefix
           backend:
             service:
