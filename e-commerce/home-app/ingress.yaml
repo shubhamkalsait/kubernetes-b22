@@ -6,11 +6,6 @@ metadata:
     app: home-app
 spec:
   ingressClassName: nginx
-  defaultBackend:
-    service:
-      name: home-app-service
-      port:
-        number: 80
   rules:
     - host: cbz.com
       http:
