@@ -15,7 +15,10 @@ spec:
           image: nginx
           ports:
             - containerPort: 80
-          
+          resources:
+            requests:
+              cpu: 1
+              memory: 
   replicas: 1
   selector:
     matchLabels:
