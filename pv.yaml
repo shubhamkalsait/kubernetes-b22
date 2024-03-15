@@ -45,5 +45,5 @@ spec:
     image: nginx
     volumeMounts:
     - name: vol
-      mountPath: /scrub
+      mountPath: /mnt
 
