@@ -19,7 +19,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - ip-172-31-32-123.ec2.internal,kubernetes.io
+          - ip-172-31-32-123.ec2.internal
         # - {key: kubernetes.io/hostname, operator: In, vlaues: []}
 
   
