@@ -56,5 +56,5 @@ spec:
     image: nginx
     volumeMounts:
     - name: vol
-      mountPath: /mnt
+      mountPath: /var/www/html
 
