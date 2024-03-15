@@ -15,6 +15,7 @@ spec:
           image: nginx
           ports:
             - containerPort: 80
+      
   replicas: 1
   selector:
     matchLabels:
