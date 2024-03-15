@@ -19,6 +19,9 @@ spec:
             requests:
               cpu: 200m
               memory: 1Gi
+            limits:
+              cpu: 
+
   replicas: 1
   selector:
     matchLabels:
