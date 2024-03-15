@@ -9,6 +9,8 @@ spec:
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Recycle
-  storageClassName: slow
+  storageClassName: local-storage
   local:
     path: /mnt
+
+---
