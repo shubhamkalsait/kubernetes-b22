@@ -28,4 +28,9 @@ spec:
   storageClassName: local-storage
   selector:
     matchLabels:
-      release: "stable"
+      app: my-app
+
+
+
+
+      
