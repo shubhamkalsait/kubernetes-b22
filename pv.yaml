@@ -39,7 +39,7 @@ spec:
   volumes:
   - name: vol
     hostPath:
-      path: /any/path/it/will/be/replaced
+      path: /mnt
   containers:
   - name: my-container
     image: nginx
