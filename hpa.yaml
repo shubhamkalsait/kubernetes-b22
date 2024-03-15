@@ -17,8 +17,8 @@ spec:
             - containerPort: 80
           resources:
             requests:
-              cpu: 1
-              memory: 
+              cpu: 
+              memory: 1Gi
   replicas: 1
   selector:
     matchLabels:
