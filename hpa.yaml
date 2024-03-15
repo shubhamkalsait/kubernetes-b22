@@ -33,7 +33,7 @@ spec:
     kind: Deployment
     name: my-deployment
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 3
   metrics:
   - type: Resource
     resource:
