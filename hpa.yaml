@@ -17,7 +17,7 @@ spec:
             - containerPort: 80
           resources:
             requests:
-              cpu: 
+              cpu: 200m
               memory: 1Gi
   replicas: 1
   selector:
