@@ -36,13 +36,12 @@ kind: Pod
 metadata:
   name: my-pod
 spec:
-  restartPolicy: Never
   volumes:
   - name: vol
     hostPath:
       path: /any/path/it/will/be/replaced
   containers:
-  - name: pv-recycler
+  - name: my-container
     image: "registry.k8s.io/busybox"
     command: ["/bin/sh", "-c", "test -e /scrub && rm -rf /scrub/..?* /scrub/.[!.]* /scrub/*  && test -z \"$(ls -A /scrub)\" || exit 1"]
     volumeMounts:
