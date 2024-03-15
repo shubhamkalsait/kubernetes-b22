@@ -22,7 +22,6 @@ spec:
             limits:
               cpu: 400m
               memory: 2Gi
-
   replicas: 1
   selector:
     matchLabels:
