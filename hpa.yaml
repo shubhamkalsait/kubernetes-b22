@@ -15,7 +15,7 @@ spec:
           image: nginx
           ports:
             - containerPort: 80
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: xyz-app
@@ -33,7 +33,7 @@ spec:
     kind: Deployment
     name: my-deployment
   minReplicas: 1
-  maxReplicas: 3
+  maxReplicas: 5
   metrics:
   - type: Resource
     resource:
