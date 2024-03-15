@@ -12,6 +12,7 @@ spec:
   storageClassName: local-storage
   local:
     path: /mnt
+  
 
 ---
 apiVersion: v1
