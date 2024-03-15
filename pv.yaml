@@ -20,6 +20,7 @@ spec:
           operator: In
           values:
           - ip-172-31-32-123.ec2.internal,kubernetes.io
+        - {key: }
 
   
 
