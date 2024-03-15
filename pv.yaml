@@ -12,6 +12,8 @@ spec:
   storageClassName: local-storage
   local:
     path: /mnt
+  nodeAfinity: 
+    
   
 
 ---
